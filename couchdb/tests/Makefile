@@ -1,5 +1,6 @@
 BACKSLASH := \$ #
-COUCHDB_PASSWORD := test_~!@\#$$%^&*_-+=`|$(BACKSLASH)(){}[]:;"'<>,.?/_pw
+COUCHDB_PASSWORD := test_pw
+# COUCHDB_PASSWORD := test_~!@\#$$%^&*_-+=`|$(BACKSLASH)(){}[]:;"'<>,.?/_pw
 COUCHDB_USER := medic-test-admin
 export COUCHDB_PASSWORD 
 export COUCHDB_USER
